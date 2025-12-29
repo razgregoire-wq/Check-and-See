@@ -1,0 +1,90 @@
+body {
+    background-image:
+    url("file:///D:/Mon site/Assets/Images/Picsart_25-12-03_11-59-14-688.png");
+    background-size: repeat;
+    background-position: center;
+    background-color:rgba(255,255,255,0.9);
+    backdrop-filter:blur(2px);
+}
+header{
+    color: #0000FF;
+    text-align: center;
+    padding: 50px 20px;
+}
+ header h1 {
+     margin-bottom: 15px;
+}
+main {
+    max-width: 1000px;
+    margin:20px auto;
+    padding: 0 20px;
+}
+section {
+    background-color: #4B0082;
+    padding:20px;
+    margin-bottom:30px;
+    border-radius:12px;
+    box-shadow: 0 4px 10px
+rgba(0,0,0,0,1);
+}
+section h2 {
+    color: #8B008B;
+    margin-bottom: 15px;
+}
+li {
+    margin-bottom: 12px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #8B008B;mk:@MSITStore:C:\Program%20Files%20(x86)\Developpement%20web%20et%20apps\David%20Esperalta\AppBuilder\Help\AppBuilder.chm::/images/appWizard.png
+}
+ container {
+     max-width: 900px;
+     margin:auto;
+     background: rgba(255,255,255,0.85);
+     padding: 20px;
+     border-radius: 12px;
+     box-shadow: 0 0 20px
+rgba(0,0,0,0,1);
+}
+ bibliotheque-grid{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+     gap: 30px
+ }
+ book-card{
+     background: #FFFFFF;
+     border-radius: 16px;
+     padding: 15px;
+     box-shadow: 0 12px 30px #808080;
+     text-align: center;
+     transition: transform 0.3s ease;
+ }
+ book-card:hover{
+     transform: translateY(-6px);
+ }
+ book-card iframe{
+     width: 100%;
+     height: 220px;
+     border: none;
+     border-radius: 12px;
+     margin-bottom: 12px;
+ }
+ book-card h3{
+     font-size: 16px;
+     margin: 10px 0;
+ }
+ book-actions{
+     display: flex;
+     justify-content: space-between;
+     gap: 10px
+ }
+ book-actions a {
+     flex: 1;
+     padding: 10px;
+     background: #4B0082;
+     color: #FFFFFF;
+     text-decoration: none;
+     border-radius: 20px;
+     font-size: 14px;
+ }
